@@ -1,0 +1,26 @@
+my:
+  custom:
+    property: Hello from application properties
+
+---
+spring:
+  config:
+    activate:
+      on-profile: JAZ
+my:
+  custom:
+    property: Hello from JAZ
+    random: Hello from random
+  private:
+    radom: Im in Radom
+    sosnowiec: Im in Sosnowiec
+
+---
+spring:
+  config:
+    activate:
+      on-profile: homeWork
+my:
+  custom:
+    property: Hello from homeWork profile
+    homework: Homework done

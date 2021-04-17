@@ -1,8 +1,8 @@
 package pl.pjatk.maclec.configs;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 import pl.pjatk.maclec.POJO;
 
 import java.util.List;
@@ -20,9 +20,15 @@ public class POJOConfig {
         return List.of("firstString", "secondString", "thirdString", "fourthString", "fifthString");
     }
 
+//    @Bean
+//    @ConditionalOnProperty(name = "my.custom.homework", havingValue = "true")
+//    public POJO anotherPojo() {
+//        return new POJO(2, "Hello from homework bean !");
+//    }
+
     @Bean
-    @Profile({"homeWork"})
-    public POJO anotherPojo() {
-        return new POJO(2, "Hello from homework bean !");
+    @ConditionalOnProperty(name = "my.custom.homework", havingValue = "true")
+    public void homework() {
+        System.out.println("Hello from homework bean ! Active profile is homeWork");
     }
 }

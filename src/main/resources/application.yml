@@ -23,4 +23,4 @@ spring:
 my:
   custom:
     property: Hello from homeWork profile
-    homework: Homework done
+    homework: true

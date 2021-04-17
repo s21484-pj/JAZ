@@ -25,6 +25,6 @@ public class ThirdComponent {
         System.out.println(secondSimpleClass.getName());
         pojo.printOutMe();
         System.out.println(defaultData);
-        anotherPojo.printOutMe();
+        //System.out.println(anotherPojo.getAnyString());
     }
 }

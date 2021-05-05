@@ -1,10 +1,8 @@
 package pl.pjatk.maclec.components;
 
 import org.springframework.stereotype.Component;
-import pl.pjatk.maclec.POJO;
-import pl.pjatk.maclec.SimpleClass;
-import pl.pjatk.maclec.components.FirstComponent;
-import pl.pjatk.maclec.components.SecondComponent;
+import pl.pjatk.maclec.model.POJO;
+import pl.pjatk.maclec.model.SimpleClass;
 
 import java.util.List;
 

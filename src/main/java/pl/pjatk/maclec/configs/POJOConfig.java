@@ -3,7 +3,7 @@ package pl.pjatk.maclec.configs;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import pl.pjatk.maclec.POJO;
+import pl.pjatk.maclec.model.POJO;
 
 import java.util.List;
 

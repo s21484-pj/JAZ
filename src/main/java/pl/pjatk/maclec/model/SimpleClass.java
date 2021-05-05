@@ -1,4 +1,4 @@
-package pl.pjatk.maclec;
+package pl.pjatk.maclec.model;
 
 public class SimpleClass {
 

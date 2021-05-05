@@ -2,7 +2,7 @@ package pl.pjatk.maclec.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import pl.pjatk.maclec.SimpleClass;
+import pl.pjatk.maclec.model.SimpleClass;
 
 @Configuration
 public class ComponentConfig {
